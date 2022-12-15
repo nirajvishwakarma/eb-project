@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="360.000000pt"
+   height="360.000000pt"
+   viewBox="0 0 360.000000 360.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg899"
+   sodipodi:docname="telephone-white.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata905">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs903" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview901"
+     showgrid="false"
+     inkscape:zoom="1.1208333"
+     inkscape:cx="240"
+     inkscape:cy="240"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg899" />
+  <g
+     transform="translate(0.000000,360.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g897"
+     style="fill:#ffffff;fill-opacity:1">
+    <path
+       d="M1570 2973 c-96 -11 -290 -57 -396 -94 -189 -66 -395 -177 -534 -288 -100 -79 -192 -165 -206 -193 -20 -38 -20 -97 -1 -134 18 -34 281 -296 314 -313 29 -14 103 -13 129 2 60 35 322 250 332 272 7 16 12 79 12 165 l0 139 55 20 c305 114 689 119 1005 13 l85 -29 5 -146 c4 -127 8 -149 26 -174 11 -15 90 -82 175 -147 150 -117 155 -120 212 -124 l58 -4 167 166 167 166 0 59 c0 60 -1 61 -55 117 -212 216 -520 391 -834 474 -180 47 -292 60 -497 58 -101 0 -200 -3 -219 -5z"
+       id="path891"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="M1447 2228 c-8 -63 -45 -142 -89 -187 -18 -19 -152 -126 -298 -240 -146 -113 -280 -221 -298 -241 -18 -19 -49 -68 -70 -109 l-37 -75 -3 -285 c-2 -179 0 -299 7 -321 15 -50 64 -105 115 -129 43 -21 46 -21 1022 -21 l979 0 51 25 c55 27 98 78 114 136 6 19 10 144 10 279 0 272 -7 319 -62 422 -39 74 -59 92 -378 339 -146 114 -278 223 -294 244 -33 43 -60 110 -71 173 l-7 42 -342 0 -343 0 -6 -52z m524 -377 c127 -48 229 -142 290 -266 112 -229 45 -490 -166 -640 -92 -66 -153 -87 -271 -93 -165 -8 -273 34 -389 152 -113 114 -164 247 -152 399 16 214 172 401 387 463 68 20 231 12 301 -15z"
+       id="path893"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="M1720 1759 c-113 -22 -232 -115 -283 -219 -99 -205 -12 -443 197 -541 272 -127 589 96 564 397 -15 174 -150 325 -326 363 -60 12 -88 13 -152 0z"
+       id="path895"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+</svg>

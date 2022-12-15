@@ -1,0 +1,114 @@
+.signup-area{
+    margin: 30px 200px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signup-form-area{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 50px auto;
+}
+.form-section{
+    /* background-color: burlywood; */
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+}
+.section-title img{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.section-title span{
+    color: var(--primary-color);
+    font-size: 0.9rem;
+}
+.form-title{
+    text-align: center;
+    font-family: 'satisfy-regular';
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
+.form-item{
+    margin: 40px 0;
+}
+
+.form-item-control img{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.form-item-control input[type='text'], input[type='email'], input[type='password'], input[type='date']{
+    height: 30px;
+    width: 400px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.form-item-control input[type='radio']{
+    margin: 10px 0;
+}
+
+.form-item-control input[type='date']{
+    margin: 10px 0;
+}
+
+.form-item-control input[type='checkbox']{
+    margin-right: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form-item-control select{
+    margin: 10px 0;
+    height: 30px;
+    width: 400px;
+    outline: none;
+    border: 1px solid var(--secondary-color);
+}
+
+::placeholder {
+    color: var(--secondary-color);
+    opacity: 0.6; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--secondary-color);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--secondary-color);
+}
+
+.gender-item{
+    margin-right: 20px;
+}
+
+.cta{
+    text-align: center;
+}
+.cta a{
+    color: var(--primary-color);
+}
+
+#contact{
+    margin-left: 10px;
+    width: 6rem;
+}
+
+#pincode{
+    width: 5rem;
+}
+
+.error-span{
+    color: var(--danger);
+    font-size: 0.8rem;
+}

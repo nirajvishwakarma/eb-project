@@ -1,0 +1,12 @@
+.title{
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'satisfy-regular';
+    margin: 20px 0;
+    color: var(--secondary-color);
+}
+
+.wide-spread > .icecream-card{
+    margin: 30px 80px;
+}

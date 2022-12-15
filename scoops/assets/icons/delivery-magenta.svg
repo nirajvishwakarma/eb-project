@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Icons"
+   x="0px"
+   y="0px"
+   viewBox="0 0 32 32"
+   style="enable-background:new 0 0 32 32;"
+   xml:space="preserve"
+   sodipodi:docname="delivery-magenta.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata873"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs871" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   id="namedview869"
+   showgrid="false"
+   inkscape:zoom="16.8125"
+   inkscape:cx="16"
+   inkscape:cy="16"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Icons" />
+<style
+   type="text/css"
+   id="style854">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3;}
+</style>
+<polyline
+   class="st1"
+   points="2,8 19,8 19,23 13,23 "
+   id="polyline856"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+<circle
+   class="st1"
+   cx="24"
+   cy="23"
+   r="2"
+   id="circle858"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+<circle
+   class="st1"
+   cx="8"
+   cy="23"
+   r="2"
+   id="circle860"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+<polyline
+   class="st1"
+   points="19,23 19,12 25,12 29,17 29,23 26,23 "
+   id="polyline862"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+<line
+   class="st1"
+   x1="4"
+   y1="12"
+   x2="13"
+   y2="12"
+   id="line864"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+<line
+   class="st1"
+   x1="2"
+   y1="16"
+   x2="11"
+   y2="16"
+   id="line866"
+   style="stroke:#ed0cef;stroke-opacity:1" />
+</svg>

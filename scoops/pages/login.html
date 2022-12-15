@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shoaib Salim Shaikh">
+    <meta name="description" content="This is an online icecream shopping website login page.">
+    <meta name="keywords" content="icecream, scoops, cones, flavors, cold, chill, delicious">
+    <link rel="icon" href="../assets/icons/ice-cream.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <link rel="stylesheet" href="../styles/login-style.css">
+    <script src="../js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../js/login-validation.js"></script>
+    <title>Scoops-LOGIN</title>
+</head>
+<body>
+    <div class="container">
+        <header class="sticky">
+            <nav class="thin-navbar flex justify-center items-center">
+                <a href="../index.html">HOME</a>
+                <a href="products.html">PRODUCTS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="signup.html">SIGNUP</a>
+                <a href="login.html" class="active">LOGIN</a>
+            </nav>
+        </header>
+        <div class="login-area flex justify-between items-center">
+            <div class="illustration">
+                <img src="../assets/illustrations/woman-with-icecream.svg" alt="illustration">
+            </div>
+            <div class="login-form-area">
+                <div class="form-title">Login</div>
+                <form novalidate id="login-form" action="index.html">
+                    <div class="form-item">
+                        <div class="form-item-control flex items-center">
+                            <img src="../assets/icons/email-solid-magenta.svg" alt="email">
+                            <input type="email" id="email" placeholder="Enter email...">
+                        </div>
+                        <span class="error-span" id="email-error"></span>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-control flex items-center">
+                            <img src="../assets/icons/lock-magenta.svg" alt="email">
+                            <input type="password" id="pwd" placeholder="Enter password...">
+                        </div>
+                        <span class="error-span" id="pwd-error"></span>
+                    </div>
+                    <div class="cta">
+                        <input class="btn btn-primary btn-large" type="submit" id="login-btn" value="Login">
+                        <br>
+                        <a href="signup.html">New user? Signup here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-brand">
+                <img src="../assets/icons/logo-white.svg" alt="Brand Logo">
+            </div>
+            <div class="footer-contact flex justify-center">
+                <div class="flex items-center">
+                    <img src="../assets/icons/email-solid-white.svg" alt="email-icon">
+                    <em>enquire@scoops.com</em>
+                </div>
+                <div class="flex items-center">
+                    <img src="../assets/icons/mobile-white.svg" alt="mobile-icon">
+                    <em>+91 9851122467</em>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <em>Copyright &#169; 2020 - 2030 www.scoops.com</em><br>
+                <em>All Rights Reserved</em>
+            </div>
+            <div class="footer-social flex justify-center">
+                <div class="flex items-center">
+                    <img src="../assets/icons/instagram-white.svg" alt="insta-icon">
+                    <em>scoops.delicious</em>
+                </div>
+                <div class="flex items-center">
+                    <img src="../assets/icons/facebook-white.svg" alt="fb-icon">
+                    <em>scoops.delicious</em>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

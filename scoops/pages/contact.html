@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shoaib Salim Shaikh">
+    <meta name="description" content="This is an online icecream shopping website contact page.">
+    <meta name="keywords" content="icecream, scoops, cones, flavors, cold, chill, delicious">
+    <link rel="icon" href="../assets/icons/ice-cream.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/utils.css">
+    <link rel="stylesheet" href="../styles/contact-style.css">
+    <script src="../js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../js/contact-validation.js"></script>
+    <title>Scoops-CONTACT</title>
+</head>
+<body>
+    <div class="container">
+        <header class="sticky">
+            <nav class="thin-navbar flex justify-center items-center">
+                <a href="../index.html">HOME</a>
+                <a href="products.html">PRODUCTS</a>
+                <a href="contact.html" class="active">CONTACT</a>
+                <a href="signup.html">SIGNUP</a>
+                <a href="login.html">LOGIN</a>
+            </nav>
+        </header>
+        <div class="contact-area flex justify-between items-center">
+            <div class="contact-details-area">
+                <div class="brand text-center">
+                    <img src="../assets/icons/logo-white.svg" alt="logo">
+                </div>
+                <div class="contact-details">
+                    <div class="contact flex items-center">
+                        <img src="../assets/icons/email-solid-white.svg" alt="email">
+                        <span>enquire@scoops.com</span>
+                    </div>
+                    <div class="contact flex items-center">
+                        <img src="../assets/icons/mobile-white.svg" alt="mobile">
+                        <span>+91 9851122467</span>
+                    </div>
+                    <div class="contact flex items-center">
+                        <img src="../assets/icons/telephone-white.svg" alt="landline">
+                        <span>022 2841 1548</span>
+                    </div>
+                    <div class="contact flex items-center">
+                        <img src="../assets/icons/location-white.svg" alt="location">
+                        <span>Shop 7, Evershine Complex, Pooja Nagar, Mira Road (E). Thane - 401107</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-area">
+                <div class="form-title">Contact us</div>
+                <form novalidate id="contact-form" action="contact.html">
+                    <div class="form-item">
+                        <div class="form-item-control flex items-center">
+                            <input type="text" id="name" placeholder="Your name...">
+                        </div>
+                        <span class="error-span" id="name-error"></span>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-control flex items-center">
+                            <input type="email" id="email" placeholder="Your email...">
+                        </div>
+                        <span class="error-span" id="email-error"></span>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-item-control flex items-center">
+                            <textarea id="message" cols="30" rows="4" maxlength="250" placeholder="Your message..."></textarea>
+                        </div>
+                        <span class="error-span" style="color: var(--primary-color);" id="message-length">250 Characters Remaining</span>
+                        <br>
+                        <span class="error-span" id="message-error"></span>
+                    </div>
+                    <div class="cta">
+                        <input class="btn btn-primary btn-large" type="submit" id="send-btn" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-brand">
+                <img src="../assets/icons/logo-white.svg" alt="Brand Logo">
+            </div>
+            <div class="footer-contact flex justify-center">
+                <div class="flex items-center">
+                    <img src="../assets/icons/email-solid-white.svg" alt="email-icon">
+                    <em>enquire@scoops.com</em>
+                </div>
+                <div class="flex items-center">
+                    <img src="../assets/icons/mobile-white.svg" alt="mobile-icon">
+                    <em>+91 9851122467</em>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <em>Copyright &#169; 2020 - 2030 www.scoops.com</em><br>
+                <em>All Rights Reserved</em>
+            </div>
+            <div class="footer-social flex justify-center">
+                <div class="flex items-center">
+                    <img src="../assets/icons/instagram-white.svg" alt="insta-icon">
+                    <em>scoops.delicious</em>
+                </div>
+                <div class="flex items-center">
+                    <img src="../assets/icons/facebook-white.svg" alt="fb-icon">
+                    <em>scoops.delicious</em>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
