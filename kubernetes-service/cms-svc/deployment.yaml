@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cms-svc-deploy
+  labels:
+    app: cms-svc-app
+spec:
+  selector:
+    matchLabels:
+      app: cms-svc-app
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: cms-svc-app
+    spec:
+      #      nodeSelector:
+        #        eks.amazonaws.com/nodegroup: ng-1
+      containers:
+        - name: cms-svc-app
+          image: 590508189671.dkr.ecr.ap-south-1.amazonaws.com/cms-svc:preprod-latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5858
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"

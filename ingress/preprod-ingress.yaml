@@ -1,0 +1,84 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    alb.ingress.kubernetes.io/actions.ssl-redirect: '{"Type": "redirect", "RedirectConfig":
+      { "Protocol": "HTTPS", "Port": "443", "StatusCode": "HTTP_301"}}'
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:590508189671:certificate/9782b07e-d76c-4cc3-9208-35526c0ca26e
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/subnets: subnet-00da10ea442d94e8c, subnet-06ee3ee3c115b7433
+    kubernetes.io/ingress.class: alb
+  creationTimestamp: null
+  name: eb-preprod
+spec:
+  rules:
+  - host: preprod-api.ebullion.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: ssl-redirect
+            port:
+              name: use-annotation
+        path: /*
+        pathType: ImplementationSpecific
+      - backend:
+          service:
+            name: main-api-service
+            port:
+              number: 3000
+        path: /*
+        pathType: ImplementationSpecific
+  - host: preprod-b2b.ebullion.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: ssl-redirect
+            port:
+              name: use-annotation
+        path: /*
+        pathType: ImplementationSpecific
+      - backend:
+          service:
+            name: b2b-service
+            port:
+              number: 3000
+        path: /*
+        pathType: ImplementationSpecific
+  - host: api.ebullion.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: ssl-redirect
+            port:
+              name: use-annotation
+        path: /*
+        pathType: ImplementationSpecific
+      - backend:
+          service:
+            name: main-api-service
+            port:
+              number: 3000
+        path: /*
+        pathType: ImplementationSpecific
+  - host: cms.ebullion.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: ssl-redirect
+            port:
+              name: use-annotation
+        path: /*
+        pathType: ImplementationSpecific
+      - backend:
+          service:
+            name: cms-svc-service
+            port:
+              number: 5858
+        path: /*
+        pathType: ImplementationSpecific
+

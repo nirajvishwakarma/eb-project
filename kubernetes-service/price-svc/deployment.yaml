@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: price-svc-deploy
+  labels:
+    app: price-svc-app
+spec:
+  selector:
+    matchLabels:
+      app: price-svc-app
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: price-svc-app
+    spec:
+      containers:
+        - name: price-svc-app
+          image: 590508189671.dkr.ecr.ap-south-1.amazonaws.com/price-svc:preprod-latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "512Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
